@@ -33,6 +33,8 @@ pipeline {
             steps {
                 echo 'Deliver....'
                 sh '''
+                cd LearnJenKins
+                cd myapp
                 python3 -m flask run
                 '''
             }
