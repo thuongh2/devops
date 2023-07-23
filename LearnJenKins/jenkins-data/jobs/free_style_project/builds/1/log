@@ -1,0 +1,9 @@
+Started by user [8mha:////4BESY+ePkqMUZklvnjfq689BDndoTBAQNlgiEghFdbSvAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/free_style_project
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[free_style_project] $ /bin/sh -xe /tmp/jenkins9154578938758817837.sh
++ echo Hello word
+Hello word
+Finished: SUCCESS

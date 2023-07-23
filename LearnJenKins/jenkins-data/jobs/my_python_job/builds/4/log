@@ -1,0 +1,28 @@
+Started by user [8mha:////4BESY+ePkqMUZklvnjfq689BDndoTBAQNlgiEghFdbSvAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building remotely on [8mha:////4AjgHPxAsK0crv3V+lKjLqeZQVaQJnmHGuijIqa01Ro8AAAAth+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAztEgZt/eT83ILSktQi/ZT85OzUIt3E9NS8Et2CypKM/DxdAyAwziswNqosTDQBAEgLcwPgAAAA[0mdocker-agent-python-00003np32yqa4 on docker (docker-agent-python) in workspace /home/jenkins/workspace/my_python_job
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/thuongh2/devops.git
+ > git init /home/jenkins/workspace/my_python_job # timeout=10
+Fetching upstream changes from https://github.com/thuongh2/devops.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.2'
+ > git fetch --tags --force --progress -- https://github.com/thuongh2/devops.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/thuongh2/devops.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Seen branch in repository origin/main
+Seen 1 remote branch
+ > git show-ref --tags -d # timeout=10
+Checking out Revision fcf7c204ad81492f4d020e57764fc6674fc1202d (origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fcf7c204ad81492f4d020e57764fc6674fc1202d # timeout=10
+Commit message: "Merge branch 'main' of https://github.com/thuongh2/devops"
+ > git rev-list --no-walk fcf7c204ad81492f4d020e57764fc6674fc1202d # timeout=10
+[my_python_job] $ /bin/sh -xe /tmp/jenkins2614566779077084744.sh
++ cd LearnJenKins
++ python3 helloworld.py
+Hello world
+Finished: SUCCESS

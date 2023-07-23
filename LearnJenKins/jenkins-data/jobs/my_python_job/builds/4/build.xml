@@ -1,0 +1,489 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <com.nirima.jenkins.plugins.docker.action.DockerBuildAction plugin="docker-plugin@1.4">
+      <cloudId>docker</cloudId>
+      <containerHost>tcp://172.30.0.2:2375</containerHost>
+      <containerId>df96b80260a425e0f0415ba228e41f926fea8d50e49ba8287e2820d8d80deb9f</containerId>
+      <inspect>{
+  &quot;Args&quot; : [ ],
+  &quot;Config&quot; : {
+    &quot;healthcheck&quot; : null,
+    &quot;AttachStderr&quot; : false,
+    &quot;AttachStdin&quot; : false,
+    &quot;AttachStdout&quot; : false,
+    &quot;Cmd&quot; : [ &quot;/bin/sh&quot; ],
+    &quot;Domainname&quot; : &quot;&quot;,
+    &quot;Entrypoint&quot; : null,
+    &quot;Env&quot; : [ &quot;PATH=/opt/java/openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin&quot;, &quot;LANG=en_US.UTF-8&quot;, &quot;LANGUAGE=en_US:en&quot;, &quot;LC_ALL=en_US.UTF-8&quot;, &quot;JAVA_HOME=/opt/java/openjdk&quot;, &quot;AGENT_WORKDIR=/home/jenkins/agent&quot; ],
+    &quot;ExposedPorts&quot; : null,
+    &quot;Hostname&quot; : &quot;df96b80260a4&quot;,
+    &quot;Image&quot; : &quot;devopsjourney1/myjenkinsagents:python&quot;,
+    &quot;Labels&quot; : {
+      &quot;Description&quot; : &quot;This is a base image, which provides the Jenkins agent executable (slave.jar)&quot;,
+      &quot;Vendor&quot; : &quot;Jenkins project&quot;,
+      &quot;Version&quot; : &quot;4.10&quot;,
+      &quot;com.nirima.jenkins.plugins.docker.JenkinsContainerImage&quot; : &quot;devopsjourney1/myjenkinsagents:python&quot;,
+      &quot;com.nirima.jenkins.plugins.docker.JenkinsId&quot; : &quot;cb953e2ae0df4e4d49af2ead8bb181ec&quot;,
+      &quot;com.nirima.jenkins.plugins.docker.JenkinsNodeName&quot; : &quot;docker-agent-python-00003np32yqa4&quot;,
+      &quot;com.nirima.jenkins.plugins.docker.JenkinsRemoveVolumes&quot; : &quot;false&quot;,
+      &quot;com.nirima.jenkins.plugins.docker.JenkinsServerUrl&quot; : &quot;http://localhost:8080/&quot;,
+      &quot;com.nirima.jenkins.plugins.docker.JenkinsTemplateName&quot; : &quot;docker-agent-python&quot;,
+      &quot;org.opencontainers.image.description&quot; : &quot;This is a base image, which provides the Jenkins agent executable (agent.jar)&quot;,
+      &quot;org.opencontainers.image.licenses&quot; : &quot;MIT&quot;,
+      &quot;org.opencontainers.image.source&quot; : &quot;https://github.com/jenkinsci/docker-agent&quot;,
+      &quot;org.opencontainers.image.title&quot; : &quot;Official Jenkins Agent Base Docker image&quot;,
+      &quot;org.opencontainers.image.url&quot; : &quot;https://www.jenkins.io/&quot;,
+      &quot;org.opencontainers.image.vendor&quot; : &quot;Jenkins project&quot;,
+      &quot;org.opencontainers.image.version&quot; : &quot;4.10&quot;
+    },
+    &quot;MacAddress&quot; : null,
+    &quot;NetworkDisabled&quot; : null,
+    &quot;OnBuild&quot; : null,
+    &quot;OpenStdin&quot; : false,
+    &quot;PortSpecs&quot; : null,
+    &quot;StdinOnce&quot; : false,
+    &quot;Tty&quot; : true,
+    &quot;User&quot; : &quot;jenkins&quot;,
+    &quot;Volumes&quot; : {
+      &quot;/home/jenkins/.jenkins&quot; : { },
+      &quot;/home/jenkins/agent&quot; : { }
+    },
+    &quot;WorkingDir&quot; : &quot;/home/jenkins&quot;,
+    &quot;Healthcheck&quot; : null
+  },
+  &quot;Created&quot; : &quot;2023-07-23T10:07:39.4134549Z&quot;,
+  &quot;Driver&quot; : &quot;overlay2&quot;,
+  &quot;ExecDriver&quot; : null,
+  &quot;HostConfig&quot; : {
+    &quot;Binds&quot; : null,
+    &quot;BlkioWeight&quot; : 0,
+    &quot;BlkioWeightDevice&quot; : null,
+    &quot;BlkioDeviceReadBps&quot; : null,
+    &quot;BlkioDeviceWriteBps&quot; : null,
+    &quot;BlkioDeviceReadIOps&quot; : null,
+    &quot;BlkioDeviceWriteIOps&quot; : null,
+    &quot;MemorySwappiness&quot; : null,
+    &quot;NanoCpus&quot; : 0,
+    &quot;CapAdd&quot; : null,
+    &quot;CapDrop&quot; : null,
+    &quot;ContainerIDFile&quot; : &quot;&quot;,
+    &quot;CpuPeriod&quot; : 0,
+    &quot;CpuRealtimePeriod&quot; : 0,
+    &quot;CpuRealtimeRuntime&quot; : 0,
+    &quot;CpuShares&quot; : 0,
+    &quot;CpuQuota&quot; : 0,
+    &quot;CpusetCpus&quot; : &quot;&quot;,
+    &quot;CpusetMems&quot; : &quot;&quot;,
+    &quot;Devices&quot; : null,
+    &quot;DeviceCgroupRules&quot; : null,
+    &quot;DeviceRequests&quot; : null,
+    &quot;DiskQuota&quot; : null,
+    &quot;Dns&quot; : null,
+    &quot;DnsOptions&quot; : null,
+    &quot;DnsSearch&quot; : null,
+    &quot;ExtraHosts&quot; : null,
+    &quot;GroupAdd&quot; : null,
+    &quot;IpcMode&quot; : &quot;private&quot;,
+    &quot;Cgroup&quot; : &quot;&quot;,
+    &quot;Links&quot; : null,
+    &quot;LogConfig&quot; : {
+      &quot;Type&quot; : &quot;json-file&quot;,
+      &quot;Config&quot; : { }
+    },
+    &quot;LxcConf&quot; : null,
+    &quot;Memory&quot; : 0,
+    &quot;MemorySwap&quot; : 0,
+    &quot;MemoryReservation&quot; : 0,
+    &quot;KernelMemory&quot; : null,
+    &quot;NetworkMode&quot; : &quot;default&quot;,
+    &quot;OomKillDisable&quot; : false,
+    &quot;Init&quot; : null,
+    &quot;AutoRemove&quot; : false,
+    &quot;OomScoreAdj&quot; : 0,
+    &quot;PortBindings&quot; : { },
+    &quot;Privileged&quot; : false,
+    &quot;PublishAllPorts&quot; : false,
+    &quot;ReadonlyRootfs&quot; : false,
+    &quot;RestartPolicy&quot; : {
+      &quot;MaximumRetryCount&quot; : 0,
+      &quot;Name&quot; : &quot;&quot;
+    },
+    &quot;Ulimits&quot; : null,
+    &quot;CpuCount&quot; : 0,
+    &quot;CpuPercent&quot; : 0,
+    &quot;IOMaximumIOps&quot; : 0,
+    &quot;IOMaximumBandwidth&quot; : 0,
+    &quot;VolumesFrom&quot; : null,
+    &quot;Mounts&quot; : null,
+    &quot;PidMode&quot; : &quot;&quot;,
+    &quot;Isolation&quot; : null,
+    &quot;SecurityOpt&quot; : null,
+    &quot;StorageOpt&quot; : null,
+    &quot;CgroupParent&quot; : &quot;&quot;,
+    &quot;VolumeDriver&quot; : &quot;&quot;,
+    &quot;ShmSize&quot; : 67108864,
+    &quot;PidsLimit&quot; : null,
+    &quot;Runtime&quot; : &quot;runc&quot;,
+    &quot;Tmpfs&quot; : null,
+    &quot;UTSMode&quot; : &quot;&quot;,
+    &quot;UsernsMode&quot; : &quot;&quot;,
+    &quot;Sysctls&quot; : null,
+    &quot;ConsoleSize&quot; : [ 0, 0 ],
+    &quot;CgroupnsMode&quot; : &quot;host&quot;
+  },
+  &quot;HostnamePath&quot; : &quot;/var/lib/docker/containers/df96b80260a425e0f0415ba228e41f926fea8d50e49ba8287e2820d8d80deb9f/hostname&quot;,
+  &quot;HostsPath&quot; : &quot;/var/lib/docker/containers/df96b80260a425e0f0415ba228e41f926fea8d50e49ba8287e2820d8d80deb9f/hosts&quot;,
+  &quot;LogPath&quot; : &quot;/var/lib/docker/containers/df96b80260a425e0f0415ba228e41f926fea8d50e49ba8287e2820d8d80deb9f/df96b80260a425e0f0415ba228e41f926fea8d50e49ba8287e2820d8d80deb9f-json.log&quot;,
+  &quot;Id&quot; : &quot;df96b80260a425e0f0415ba228e41f926fea8d50e49ba8287e2820d8d80deb9f&quot;,
+  &quot;SizeRootFs&quot; : null,
+  &quot;Image&quot; : &quot;sha256:fe573725a2e4652c4087e380341c6d6dd26ea39c9b93a46e6a4e59c5c1318128&quot;,
+  &quot;MountLabel&quot; : &quot;&quot;,
+  &quot;Name&quot; : &quot;/stupefied_galileo&quot;,
+  &quot;RestartCount&quot; : 0,
+  &quot;NetworkSettings&quot; : {
+    &quot;Bridge&quot; : &quot;&quot;,
+    &quot;SandboxID&quot; : &quot;f57b6f0b354845d03dc1aa01bc0616877f1f1f2d32749903d7594ee83881d94b&quot;,
+    &quot;HairpinMode&quot; : false,
+    &quot;LinkLocalIPv6Address&quot; : &quot;&quot;,
+    &quot;LinkLocalIPv6PrefixLen&quot; : 0,
+    &quot;Ports&quot; : { },
+    &quot;SandboxKey&quot; : &quot;/var/run/docker/netns/f57b6f0b3548&quot;,
+    &quot;SecondaryIPAddresses&quot; : null,
+    &quot;SecondaryIPv6Addresses&quot; : null,
+    &quot;EndpointID&quot; : &quot;e896beaa944dbce2ff6142bfbd4821b7072e6be9890e9e7e756ccae8dd934d61&quot;,
+    &quot;Gateway&quot; : &quot;172.17.0.1&quot;,
+    &quot;PortMapping&quot; : null,
+    &quot;GlobalIPv6Address&quot; : &quot;&quot;,
+    &quot;GlobalIPv6PrefixLen&quot; : 0,
+    &quot;IPAddress&quot; : &quot;172.17.0.2&quot;,
+    &quot;IPPrefixLen&quot; : 16,
+    &quot;IPv6Gateway&quot; : &quot;&quot;,
+    &quot;MacAddress&quot; : &quot;02:42:ac:11:00:02&quot;,
+    &quot;Networks&quot; : {
+      &quot;bridge&quot; : {
+        &quot;IPAMConfig&quot; : null,
+        &quot;Links&quot; : null,
+        &quot;Aliases&quot; : null,
+        &quot;NetworkID&quot; : &quot;5cd398301fb47fc5b00c1debfb4dccb4241ba3e41520737474a1b6580437e5f1&quot;,
+        &quot;EndpointID&quot; : &quot;e896beaa944dbce2ff6142bfbd4821b7072e6be9890e9e7e756ccae8dd934d61&quot;,
+        &quot;Gateway&quot; : &quot;172.17.0.1&quot;,
+        &quot;IPAddress&quot; : &quot;172.17.0.2&quot;,
+        &quot;IPPrefixLen&quot; : 16,
+        &quot;IPv6Gateway&quot; : &quot;&quot;,
+        &quot;GlobalIPv6Address&quot; : &quot;&quot;,
+        &quot;GlobalIPv6PrefixLen&quot; : 0,
+        &quot;MacAddress&quot; : &quot;02:42:ac:11:00:02&quot;
+      }
+    }
+  },
+  &quot;Path&quot; : &quot;/bin/sh&quot;,
+  &quot;ProcessLabel&quot; : &quot;&quot;,
+  &quot;ResolvConfPath&quot; : &quot;/var/lib/docker/containers/df96b80260a425e0f0415ba228e41f926fea8d50e49ba8287e2820d8d80deb9f/resolv.conf&quot;,
+  &quot;ExecIDs&quot; : [ &quot;763207d7334862388287d646001895774113a4fac4ef210d3594e68fbef8f6cf&quot; ],
+  &quot;State&quot; : {
+    &quot;exitCodeLong&quot; : 0,
+    &quot;oomkilled&quot; : false,
+    &quot;pidLong&quot; : 24711,
+    &quot;Status&quot; : &quot;running&quot;,
+    &quot;Running&quot; : true,
+    &quot;Paused&quot; : false,
+    &quot;Restarting&quot; : false,
+    &quot;OOMKilled&quot; : false,
+    &quot;Dead&quot; : false,
+    &quot;Pid&quot; : 24711,
+    &quot;ExitCode&quot; : 0,
+    &quot;Error&quot; : &quot;&quot;,
+    &quot;StartedAt&quot; : &quot;2023-07-23T10:07:52.2987703Z&quot;,
+    &quot;FinishedAt&quot; : &quot;0001-01-01T00:00:00Z&quot;,
+    &quot;Health&quot; : null
+  },
+  &quot;Volumes&quot; : null,
+  &quot;VolumesRW&quot; : null,
+  &quot;Node&quot; : null,
+  &quot;Mounts&quot; : [ {
+    &quot;Name&quot; : &quot;4f80f1aeeea2fc6d97c441017d879592fc5e1ecfddfcc92c0bb5e82e3def0aeb&quot;,
+    &quot;Source&quot; : &quot;/var/lib/docker/volumes/4f80f1aeeea2fc6d97c441017d879592fc5e1ecfddfcc92c0bb5e82e3def0aeb/_data&quot;,
+    &quot;Destination&quot; : &quot;/home/jenkins/.jenkins&quot;,
+    &quot;Driver&quot; : &quot;local&quot;,
+    &quot;Mode&quot; : &quot;&quot;,
+    &quot;RW&quot; : true
+  }, {
+    &quot;Name&quot; : &quot;995d8ebbca93995d5a61d002a68c14abaab53eac06f5defd1a50616dd01f7623&quot;,
+    &quot;Source&quot; : &quot;/var/lib/docker/volumes/995d8ebbca93995d5a61d002a68c14abaab53eac06f5defd1a50616dd01f7623/_data&quot;,
+    &quot;Destination&quot; : &quot;/home/jenkins/agent&quot;,
+    &quot;Driver&quot; : &quot;local&quot;,
+    &quot;Mode&quot; : &quot;&quot;,
+    &quot;RW&quot; : true
+  } ],
+  &quot;GraphDriver&quot; : {
+    &quot;Name&quot; : &quot;overlay2&quot;,
+    &quot;Data&quot; : {
+      &quot;RootDir&quot; : null,
+      &quot;DeviceId&quot; : null,
+      &quot;DeviceName&quot; : null,
+      &quot;DeviceSize&quot; : null,
+      &quot;dir&quot; : null
+    }
+  },
+  &quot;Platform&quot; : &quot;linux&quot;,
+  &quot;Path&quot; : &quot;/bin/sh&quot;,
+  &quot;Args&quot; : [ ],
+  &quot;ProcessLabel&quot; : &quot;&quot;,
+  &quot;Mounts&quot; : [ {
+    &quot;Type&quot; : &quot;volume&quot;,
+    &quot;Name&quot; : &quot;4f80f1aeeea2fc6d97c441017d879592fc5e1ecfddfcc92c0bb5e82e3def0aeb&quot;,
+    &quot;Source&quot; : &quot;/var/lib/docker/volumes/4f80f1aeeea2fc6d97c441017d879592fc5e1ecfddfcc92c0bb5e82e3def0aeb/_data&quot;,
+    &quot;Destination&quot; : &quot;/home/jenkins/.jenkins&quot;,
+    &quot;Driver&quot; : &quot;local&quot;,
+    &quot;Mode&quot; : &quot;&quot;,
+    &quot;RW&quot; : true,
+    &quot;Propagation&quot; : &quot;&quot;
+  }, {
+    &quot;Type&quot; : &quot;volume&quot;,
+    &quot;Name&quot; : &quot;995d8ebbca93995d5a61d002a68c14abaab53eac06f5defd1a50616dd01f7623&quot;,
+    &quot;Source&quot; : &quot;/var/lib/docker/volumes/995d8ebbca93995d5a61d002a68c14abaab53eac06f5defd1a50616dd01f7623/_data&quot;,
+    &quot;Destination&quot; : &quot;/home/jenkins/agent&quot;,
+    &quot;Driver&quot; : &quot;local&quot;,
+    &quot;Mode&quot; : &quot;&quot;,
+    &quot;RW&quot; : true,
+    &quot;Propagation&quot; : &quot;&quot;
+  } ],
+  &quot;Platform&quot; : &quot;linux&quot;,
+  &quot;Config&quot; : {
+    &quot;Hostname&quot; : &quot;df96b80260a4&quot;,
+    &quot;Domainname&quot; : &quot;&quot;,
+    &quot;User&quot; : &quot;jenkins&quot;,
+    &quot;AttachStdin&quot; : false,
+    &quot;AttachStdout&quot; : false,
+    &quot;AttachStderr&quot; : false,
+    &quot;Tty&quot; : true,
+    &quot;OpenStdin&quot; : false,
+    &quot;StdinOnce&quot; : false,
+    &quot;Env&quot; : [ &quot;PATH=/opt/java/openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin&quot;, &quot;LANG=en_US.UTF-8&quot;, &quot;LANGUAGE=en_US:en&quot;, &quot;LC_ALL=en_US.UTF-8&quot;, &quot;JAVA_HOME=/opt/java/openjdk&quot;, &quot;AGENT_WORKDIR=/home/jenkins/agent&quot; ],
+    &quot;Cmd&quot; : [ &quot;/bin/sh&quot; ],
+    &quot;Image&quot; : &quot;devopsjourney1/myjenkinsagents:python&quot;,
+    &quot;Volumes&quot; : {
+      &quot;/home/jenkins/.jenkins&quot; : { },
+      &quot;/home/jenkins/agent&quot; : { }
+    },
+    &quot;WorkingDir&quot; : &quot;/home/jenkins&quot;,
+    &quot;Entrypoint&quot; : null,
+    &quot;OnBuild&quot; : null,
+    &quot;Labels&quot; : {
+      &quot;Description&quot; : &quot;This is a base image, which provides the Jenkins agent executable (slave.jar)&quot;,
+      &quot;Vendor&quot; : &quot;Jenkins project&quot;,
+      &quot;Version&quot; : &quot;4.10&quot;,
+      &quot;com.nirima.jenkins.plugins.docker.JenkinsContainerImage&quot; : &quot;devopsjourney1/myjenkinsagents:python&quot;,
+      &quot;com.nirima.jenkins.plugins.docker.JenkinsId&quot; : &quot;cb953e2ae0df4e4d49af2ead8bb181ec&quot;,
+      &quot;com.nirima.jenkins.plugins.docker.JenkinsNodeName&quot; : &quot;docker-agent-python-00003np32yqa4&quot;,
+      &quot;com.nirima.jenkins.plugins.docker.JenkinsRemoveVolumes&quot; : &quot;false&quot;,
+      &quot;com.nirima.jenkins.plugins.docker.JenkinsServerUrl&quot; : &quot;http://localhost:8080/&quot;,
+      &quot;com.nirima.jenkins.plugins.docker.JenkinsTemplateName&quot; : &quot;docker-agent-python&quot;,
+      &quot;org.opencontainers.image.description&quot; : &quot;This is a base image, which provides the Jenkins agent executable (agent.jar)&quot;,
+      &quot;org.opencontainers.image.licenses&quot; : &quot;MIT&quot;,
+      &quot;org.opencontainers.image.source&quot; : &quot;https://github.com/jenkinsci/docker-agent&quot;,
+      &quot;org.opencontainers.image.title&quot; : &quot;Official Jenkins Agent Base Docker image&quot;,
+      &quot;org.opencontainers.image.url&quot; : &quot;https://www.jenkins.io/&quot;,
+      &quot;org.opencontainers.image.vendor&quot; : &quot;Jenkins project&quot;,
+      &quot;org.opencontainers.image.version&quot; : &quot;4.10&quot;
+    }
+  },
+  &quot;Driver&quot; : &quot;overlay2&quot;,
+  &quot;AppArmorProfile&quot; : &quot;&quot;,
+  &quot;HostsPath&quot; : &quot;/var/lib/docker/containers/df96b80260a425e0f0415ba228e41f926fea8d50e49ba8287e2820d8d80deb9f/hosts&quot;,
+  &quot;HostnamePath&quot; : &quot;/var/lib/docker/containers/df96b80260a425e0f0415ba228e41f926fea8d50e49ba8287e2820d8d80deb9f/hostname&quot;,
+  &quot;GraphDriver&quot; : {
+    &quot;Data&quot; : {
+      &quot;LowerDir&quot; : &quot;/var/lib/docker/overlay2/a92db693f175946c060ad134f431734ef43451d5cc4eaaff467c55d8ca6ef897-init/diff:/var/lib/docker/overlay2/26bf1b24f79403f306b58dd6945f0cf17c2abbc626ff79ef413c42a1692d985e/diff:/var/lib/docker/overlay2/9186f21a8771ce9593b6772f907e91861b1918c89c2ec3635a5f4c1af0ce2824/diff:/var/lib/docker/overlay2/bd9dec96a9b8b8f4ff39cc1070a58408c667dc2a92189f3a0e8301db39fe75e2/diff:/var/lib/docker/overlay2/1e83ff31516b767f8342bce811a8104237d02ce7277178eeacfa7aaf4b99e373/diff:/var/lib/docker/overlay2/bbf7494df798b2dd835b2510bbb18a1074893f4e3dec972e0bf02b3566965a6f/diff:/var/lib/docker/overlay2/e2832dd3e425fd36a6a49eb940fac4ed2b80c0106bcd89dc34cdd25fb9132f91/diff:/var/lib/docker/overlay2/446ac75fd551eca8dc20c63dc9dd02b821f033a36c8fd75fb5eb8429c5834440/diff:/var/lib/docker/overlay2/301d0a7295d4a9bebe9472ffc8da5ca03c56fc4fc54ed1af65291d3806952fca/diff:/var/lib/docker/overlay2/808e68aefff67813414e12471cd94ec8707a465c9058445f168c906daab56465/diff:/var/lib/docker/overlay2/6e9857a115a4b0bb1a49e13e914ba8f9c8ee93944def28fc20e1ae86244be39e/diff&quot;,
+      &quot;MergedDir&quot; : &quot;/var/lib/docker/overlay2/a92db693f175946c060ad134f431734ef43451d5cc4eaaff467c55d8ca6ef897/merged&quot;,
+      &quot;UpperDir&quot; : &quot;/var/lib/docker/overlay2/a92db693f175946c060ad134f431734ef43451d5cc4eaaff467c55d8ca6ef897/diff&quot;,
+      &quot;WorkDir&quot; : &quot;/var/lib/docker/overlay2/a92db693f175946c060ad134f431734ef43451d5cc4eaaff467c55d8ca6ef897/work&quot;
+    },
+    &quot;Name&quot; : &quot;overlay2&quot;
+  },
+  &quot;Image&quot; : &quot;sha256:fe573725a2e4652c4087e380341c6d6dd26ea39c9b93a46e6a4e59c5c1318128&quot;,
+  &quot;Created&quot; : &quot;2023-07-23T10:07:39.4134549Z&quot;,
+  &quot;Name&quot; : &quot;/stupefied_galileo&quot;,
+  &quot;RestartCount&quot; : 0,
+  &quot;NetworkSettings&quot; : {
+    &quot;Bridge&quot; : &quot;&quot;,
+    &quot;SandboxID&quot; : &quot;f57b6f0b354845d03dc1aa01bc0616877f1f1f2d32749903d7594ee83881d94b&quot;,
+    &quot;HairpinMode&quot; : false,
+    &quot;LinkLocalIPv6Address&quot; : &quot;&quot;,
+    &quot;LinkLocalIPv6PrefixLen&quot; : 0,
+    &quot;Ports&quot; : { },
+    &quot;SandboxKey&quot; : &quot;/var/run/docker/netns/f57b6f0b3548&quot;,
+    &quot;SecondaryIPAddresses&quot; : null,
+    &quot;SecondaryIPv6Addresses&quot; : null,
+    &quot;EndpointID&quot; : &quot;e896beaa944dbce2ff6142bfbd4821b7072e6be9890e9e7e756ccae8dd934d61&quot;,
+    &quot;Gateway&quot; : &quot;172.17.0.1&quot;,
+    &quot;GlobalIPv6Address&quot; : &quot;&quot;,
+    &quot;GlobalIPv6PrefixLen&quot; : 0,
+    &quot;IPAddress&quot; : &quot;172.17.0.2&quot;,
+    &quot;IPPrefixLen&quot; : 16,
+    &quot;IPv6Gateway&quot; : &quot;&quot;,
+    &quot;MacAddress&quot; : &quot;02:42:ac:11:00:02&quot;,
+    &quot;Networks&quot; : {
+      &quot;bridge&quot; : {
+        &quot;IPAMConfig&quot; : null,
+        &quot;Links&quot; : null,
+        &quot;Aliases&quot; : null,
+        &quot;NetworkID&quot; : &quot;5cd398301fb47fc5b00c1debfb4dccb4241ba3e41520737474a1b6580437e5f1&quot;,
+        &quot;EndpointID&quot; : &quot;e896beaa944dbce2ff6142bfbd4821b7072e6be9890e9e7e756ccae8dd934d61&quot;,
+        &quot;Gateway&quot; : &quot;172.17.0.1&quot;,
+        &quot;IPAddress&quot; : &quot;172.17.0.2&quot;,
+        &quot;IPPrefixLen&quot; : 16,
+        &quot;IPv6Gateway&quot; : &quot;&quot;,
+        &quot;GlobalIPv6Address&quot; : &quot;&quot;,
+        &quot;GlobalIPv6PrefixLen&quot; : 0,
+        &quot;MacAddress&quot; : &quot;02:42:ac:11:00:02&quot;,
+        &quot;DriverOpts&quot; : null
+      }
+    }
+  },
+  &quot;MountLabel&quot; : &quot;&quot;,
+  &quot;State&quot; : {
+    &quot;Status&quot; : &quot;running&quot;,
+    &quot;Running&quot; : true,
+    &quot;Paused&quot; : false,
+    &quot;Restarting&quot; : false,
+    &quot;OOMKilled&quot; : false,
+    &quot;Dead&quot; : false,
+    &quot;Pid&quot; : 24711,
+    &quot;ExitCode&quot; : 0,
+    &quot;Error&quot; : &quot;&quot;,
+    &quot;StartedAt&quot; : &quot;2023-07-23T10:07:52.2987703Z&quot;,
+    &quot;FinishedAt&quot; : &quot;0001-01-01T00:00:00Z&quot;
+  },
+  &quot;ResolvConfPath&quot; : &quot;/var/lib/docker/containers/df96b80260a425e0f0415ba228e41f926fea8d50e49ba8287e2820d8d80deb9f/resolv.conf&quot;,
+  &quot;ExecIDs&quot; : [ &quot;763207d7334862388287d646001895774113a4fac4ef210d3594e68fbef8f6cf&quot; ],
+  &quot;HostConfig&quot; : {
+    &quot;Binds&quot; : null,
+    &quot;ContainerIDFile&quot; : &quot;&quot;,
+    &quot;LogConfig&quot; : {
+      &quot;Type&quot; : &quot;json-file&quot;,
+      &quot;Config&quot; : { }
+    },
+    &quot;NetworkMode&quot; : &quot;default&quot;,
+    &quot;PortBindings&quot; : { },
+    &quot;RestartPolicy&quot; : {
+      &quot;Name&quot; : &quot;&quot;,
+      &quot;MaximumRetryCount&quot; : 0
+    },
+    &quot;AutoRemove&quot; : false,
+    &quot;VolumeDriver&quot; : &quot;&quot;,
+    &quot;VolumesFrom&quot; : null,
+    &quot;ConsoleSize&quot; : [ 0, 0 ],
+    &quot;CapAdd&quot; : null,
+    &quot;CapDrop&quot; : null,
+    &quot;CgroupnsMode&quot; : &quot;host&quot;,
+    &quot;Dns&quot; : null,
+    &quot;DnsOptions&quot; : null,
+    &quot;DnsSearch&quot; : null,
+    &quot;ExtraHosts&quot; : null,
+    &quot;GroupAdd&quot; : null,
+    &quot;IpcMode&quot; : &quot;private&quot;,
+    &quot;Cgroup&quot; : &quot;&quot;,
+    &quot;Links&quot; : null,
+    &quot;OomScoreAdj&quot; : 0,
+    &quot;PidMode&quot; : &quot;&quot;,
+    &quot;Privileged&quot; : false,
+    &quot;PublishAllPorts&quot; : false,
+    &quot;ReadonlyRootfs&quot; : false,
+    &quot;SecurityOpt&quot; : null,
+    &quot;UTSMode&quot; : &quot;&quot;,
+    &quot;UsernsMode&quot; : &quot;&quot;,
+    &quot;ShmSize&quot; : 67108864,
+    &quot;Runtime&quot; : &quot;runc&quot;,
+    &quot;Isolation&quot; : &quot;&quot;,
+    &quot;CpuShares&quot; : 0,
+    &quot;Memory&quot; : 0,
+    &quot;NanoCpus&quot; : 0,
+    &quot;CgroupParent&quot; : &quot;&quot;,
+    &quot;BlkioWeight&quot; : 0,
+    &quot;BlkioWeightDevice&quot; : null,
+    &quot;BlkioDeviceReadBps&quot; : null,
+    &quot;BlkioDeviceWriteBps&quot; : null,
+    &quot;BlkioDeviceReadIOps&quot; : null,
+    &quot;BlkioDeviceWriteIOps&quot; : null,
+    &quot;CpuPeriod&quot; : 0,
+    &quot;CpuQuota&quot; : 0,
+    &quot;CpuRealtimePeriod&quot; : 0,
+    &quot;CpuRealtimeRuntime&quot; : 0,
+    &quot;CpusetCpus&quot; : &quot;&quot;,
+    &quot;CpusetMems&quot; : &quot;&quot;,
+    &quot;Devices&quot; : null,
+    &quot;DeviceCgroupRules&quot; : null,
+    &quot;DeviceRequests&quot; : null,
+    &quot;MemoryReservation&quot; : 0,
+    &quot;MemorySwap&quot; : 0,
+    &quot;MemorySwappiness&quot; : null,
+    &quot;OomKillDisable&quot; : false,
+    &quot;PidsLimit&quot; : null,
+    &quot;Ulimits&quot; : null,
+    &quot;CpuCount&quot; : 0,
+    &quot;CpuPercent&quot; : 0,
+    &quot;IOMaximumIOps&quot; : 0,
+    &quot;IOMaximumBandwidth&quot; : 0,
+    &quot;MaskedPaths&quot; : [ &quot;/proc/asound&quot;, &quot;/proc/acpi&quot;, &quot;/proc/kcore&quot;, &quot;/proc/keys&quot;, &quot;/proc/latency_stats&quot;, &quot;/proc/timer_list&quot;, &quot;/proc/timer_stats&quot;, &quot;/proc/sched_debug&quot;, &quot;/proc/scsi&quot;, &quot;/sys/firmware&quot; ],
+    &quot;ReadonlyPaths&quot; : [ &quot;/proc/bus&quot;, &quot;/proc/fs&quot;, &quot;/proc/irq&quot;, &quot;/proc/sys&quot;, &quot;/proc/sysrq-trigger&quot; ]
+  },
+  &quot;Id&quot; : &quot;df96b80260a425e0f0415ba228e41f926fea8d50e49ba8287e2820d8d80deb9f&quot;,
+  &quot;LogPath&quot; : &quot;/var/lib/docker/containers/df96b80260a425e0f0415ba228e41f926fea8d50e49ba8287e2820d8d80deb9f/df96b80260a425e0f0415ba228e41f926fea8d50e49ba8287e2820d8d80deb9f-json.log&quot;
+}</inspect>
+    </com.nirima.jenkins.plugins.docker.action.DockerBuildAction>
+    <hudson.plugins.git.util.BuildData plugin="git@5.2.0">
+      <buildsByBranchName>
+        <entry>
+          <string>origin/main</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@4.4.0">
+              <sha1>fcf7c204ad81492f4d020e57764fc6674fc1202d</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>origin/main</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>4</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/thuongh2/devops.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.scm.SCMRevisionState_-None/>
+  </actions>
+  <queueId>4</queueId>
+  <timestamp>1690106884541</timestamp>
+  <startTime>1690106884629</startTime>
+  <result>SUCCESS</result>
+  <duration>59620</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>docker-agent-python-00003np32yqa4</builtOn>
+  <workspace>/home/jenkins/workspace/my_python_job</workspace>
+  <hudsonVersion>2.401.2</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@5.2.0">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.5.2
+Build-Jdk-Spec: 11
+Plugin-Class: hudson.plugins.favorite.FavoritePlugin
+Extension-Name: favorite
+Implementation-Title: favorite
+Implementation-Version: 2.4.2
+Specification-Title: The Jenkins Plugins Parent POM Project
+Group-Id: org.jvnet.hudson.plugins
+Short-Name: favorite
+Long-Name: Favorite
+Url: https://github.com/jenkinsci/favorite-plugin
+Minimum-Java-Version: 1.8
+Plugin-Version: 2.4.2
+Hudson-Version: 2.319.3
+Jenkins-Version: 2.319.3
+Plugin-Dependencies: mailer:414.vcc4c33714601,matrix-project:772.v494f19
+ 991984,token-macro:308.v4f2b_ed62b_b_16
+Plugin-Developers: Larry Shatzer, Jr.:lshatzer:larrys@gmail.com,James Du
+ may:jamesdumay:jdumay@cloudbees.com,Michael Neale:michaelneale:mneale@c
+ loudbees.com
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmUrl: https://github.com/jenkinsci/favorite-plugin
+

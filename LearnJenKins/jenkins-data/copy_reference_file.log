@@ -1,0 +1,105 @@
+--- Copying files at Sun Jul 23 07:45:25 UTC 2023
+INSTALLED plugins/jenkins-design-language.jpi : 1.27.4
+INSTALLED plugins/pipeline-milestone-step.jpi : 111.v449306f708b_7
+INSTALLED plugins/blueocean-github-pipeline.jpi : 1.27.4
+INSTALLED plugins/snakeyaml-api.jpi : 1.33-95.va_b_a_e3e47b_fa_4
+INSTALLED plugins/scm-api.jpi : 676.v886669a_199a_a_
+INSTALLED plugins/instance-identity.jpi : 173.va_37c494ec4e5
+INSTALLED plugins/authentication-tokens.jpi : 1.53.v1c90fd9191a_b_
+INSTALLED plugins/blueocean-commons.jpi : 1.27.4
+INSTALLED plugins/ssh-credentials.jpi : 305.v8f4381501156
+INSTALLED plugins/cloudbees-folder.jpi : 6.815.v0dd5a_cb_40e0e
+INSTALLED plugins/jjwt-api.jpi : 0.11.5-77.v646c772fddb_0
+INSTALLED plugins/blueocean-display-url.jpi : 2.4.2
+INSTALLED plugins/commons-lang3-api.jpi : 3.12.0-36.vd97de6465d5b_
+INSTALLED plugins/bouncycastle-api.jpi : 2.29
+INSTALLED plugins/blueocean-web.jpi : 1.27.4
+INSTALLED plugins/cloudbees-bitbucket-branch-source.jpi : 825.va_6a_dc46a_f97d
+INSTALLED plugins/workflow-basic-steps.jpi : 1017.vb_45b_302f0cea_
+INSTALLED plugins/structs.jpi : 324.va_f5d6774f3a_d
+INSTALLED plugins/durable-task.jpi : 510.v324450f8dca_4
+INSTALLED plugins/workflow-durable-task-step.jpi : 1247.v7f9dfea_b_4fd0
+INSTALLED plugins/workflow-multibranch.jpi : 756.v891d88f2cd46
+INSTALLED plugins/blueocean-events.jpi : 1.27.4
+INSTALLED plugins/pipeline-graph-analysis.jpi : 202.va_d268e64deb_3
+INSTALLED plugins/workflow-job.jpi : 1316.vd2290d3341a_f
+INSTALLED plugins/htmlpublisher.jpi : 1.31
+INSTALLED plugins/mina-sshd-api-core.jpi : 2.10.0-69.v28e3e36d18eb_
+INSTALLED plugins/docker-commons.jpi : 439.va_3cb_0a_6a_fb_29
+INSTALLED plugins/javax-activation-api.jpi : 1.2.0-6
+INSTALLED plugins/workflow-cps.jpi : 3717.va_180a_fe9d3cd
+INSTALLED plugins/workflow-scm-step.jpi : 415.v434365564324
+INSTALLED plugins/pipeline-input-step.jpi : 468.va_5db_051498a_4
+INSTALLED plugins/blueocean-pipeline-editor.jpi : 1.27.4
+INSTALLED plugins/blueocean-rest.jpi : 1.27.4
+INSTALLED plugins/script-security.jpi : 1251.vfe552ed55f8d
+INSTALLED plugins/mina-sshd-api-common.jpi : 2.10.0-69.v28e3e36d18eb_
+INSTALLED plugins/blueocean-personalization.jpi : 1.27.4
+INSTALLED plugins/blueocean-pipeline-scm-api.jpi : 1.27.4
+INSTALLED plugins/workflow-api.jpi : 1241.v4edc8b_44933b_
+INSTALLED plugins/pubsub-light.jpi : 1.17
+INSTALLED plugins/credentials-binding.jpi : 604.vb_64480b_c56ca_
+INSTALLED plugins/checks-api.jpi : 2.0.0
+INSTALLED plugins/junit.jpi : 1217.v4297208a_a_b_ce
+INSTALLED plugins/jakarta-mail-api.jpi : 2.0.1-3
+INSTALLED plugins/github-api.jpi : 1.314-431.v78d72a_3fe4c3
+INSTALLED plugins/blueocean-rest-impl.jpi : 1.27.4
+INSTALLED plugins/plain-credentials.jpi : 143.v1b_df8b_d3b_e48
+INSTALLED plugins/trilead-api.jpi : 2.84.v72119de229b_7
+INSTALLED plugins/jakarta-activation-api.jpi : 2.0.1-3
+INSTALLED plugins/display-url-api.jpi : 2.3.7
+INSTALLED plugins/blueocean-git-pipeline.jpi : 1.27.4
+INSTALLED plugins/git.jpi : 5.2.0
+INSTALLED plugins/pipeline-stage-tags-metadata.jpi : 2.2144.v077a_d1928a_40
+INSTALLED plugins/git-client.jpi : 4.4.0
+INSTALLED plugins/credentials.jpi : 1268.v3f0d043d60e9
+INSTALLED plugins/github.jpi : 1.37.1
+INSTALLED plugins/variant.jpi : 59.vf075fe829ccb
+INSTALLED plugins/workflow-step-api.jpi : 639.v6eca_cd8c04a_a_
+INSTALLED plugins/pipeline-model-definition.jpi : 2.2144.v077a_d1928a_40
+INSTALLED plugins/branch-api.jpi : 2.1122.v09cb_8ea_8a_724
+INSTALLED plugins/token-macro.jpi : 359.vb_cde11682e0c
+INSTALLED plugins/pipeline-model-api.jpi : 2.2144.v077a_d1928a_40
+INSTALLED plugins/echarts-api.jpi : 5.4.0-5
+INSTALLED plugins/caffeine-api.jpi : 3.1.6-115.vb_8b_b_328e59d8
+INSTALLED plugins/blueocean-i18n.jpi : 1.27.4
+INSTALLED plugins/workflow-support.jpi : 839.v35e2736cfd5c
+INSTALLED plugins/github-branch-source.jpi : 1728.v859147241f49
+INSTALLED plugins/sse-gateway.jpi : 1.26
+INSTALLED plugins/jaxb.jpi : 2.3.8-1
+INSTALLED plugins/blueocean-pipeline-api-impl.jpi : 1.27.4
+INSTALLED plugins/blueocean-core-js.jpi : 1.27.4
+INSTALLED plugins/favorite.jpi : 2.4.2
+INSTALLED plugins/jquery3-api.jpi : 3.7.0-1
+INSTALLED plugins/blueocean.jpi : 1.27.4
+INSTALLED plugins/font-awesome-api.jpi : 6.4.0-2
+INSTALLED plugins/docker-workflow.jpi : 1.29
+INSTALLED plugins/bootstrap5-api.jpi : 5.3.0-1
+INSTALLED plugins/plugin-util-api.jpi : 3.3.0
+INSTALLED plugins/apache-httpcomponents-client-4-api.jpi : 4.5.14-150.v7a_b_9d17134a_5
+INSTALLED plugins/jackson2-api.jpi : 2.15.2-350.v0c2f3f8fc595
+INSTALLED plugins/blueocean-dashboard.jpi : 1.27.4
+INSTALLED plugins/mailer.jpi : 457.v3f72cb_e015e5
+INSTALLED plugins/blueocean-config.jpi : 1.27.4
+INSTALLED plugins/matrix-project.jpi : 789.v57a_725b_63c79
+INSTALLED plugins/blueocean-jwt.jpi : 1.27.4
+INSTALLED plugins/blueocean-bitbucket-pipeline.jpi : 1.27.4
+INSTALLED plugins/pipeline-build-step.jpi : 496.v2449a_9a_221f2
+INSTALLED plugins/pipeline-groovy-lib.jpi : 656.va_a_ceeb_6ffb_f7
+INSTALLED plugins/ionicons-api.jpi : 56.v1b_1c8c49374e
+INSTALLED plugins/handy-uri-templates-2-api.jpi : 2.1.8-22.v77d5b_75e6953
+INSTALLED plugins/pipeline-stage-step.jpi : 305.ve96d0205c1c6
+INSTALLED plugins/okhttp-api.jpi : 4.11.0-145.vcb_8de402ef81
+INSTALLED plugins/commons-text-api.jpi : 1.10.0-36.vc008c8fcda_7b_
+INSTALLED plugins/pipeline-model-extensions.jpi : 2.2144.v077a_d1928a_40
+--- Copying files at Sun Jul 23 08:44:07 UTC 2023
+--- Copying files at Sun Jul 23 08:53:09 UTC 2023
+--- Copying files at Sun Jul 23 09:05:24 UTC 2023
+--- Copying files at Sun Jul 23 09:06:15 UTC 2023
+--- Copying files at Sun Jul 23 09:07:16 UTC 2023
+--- Copying files at Sun Jul 23 09:08:04 UTC 2023
+--- Copying files at Sun Jul 23 09:13:45 UTC 2023
+--- Copying files at Sun Jul 23 09:18:00 UTC 2023
+--- Copying files at Sun Jul 23 09:41:22 UTC 2023
+--- Copying files at Sun Jul 23 09:43:57 UTC 2023
+--- Copying files at Sun Jul 23 12:17:04 UTC 2023

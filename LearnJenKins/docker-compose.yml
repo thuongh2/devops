@@ -1,0 +1,32 @@
+version: '3.1'
+services:
+  jenkins:
+    image: myjenkins-blueocean
+    container_name: jenkins
+    restart: on-failure
+    networks:
+      - jenkins 
+    privileged: true
+    user: root
+    environment:
+      - DOCKER_HOST=tcp://docker:2376
+    ports:
+      - 8080:8080
+      - 50000:50000
+    volumes:
+      - ./jenkins-data:/var/jenkins_home
+  socat:
+    image: alpine/socat
+    container_name: socat
+    command: tcp-listen:2375,fork,reuseaddr unix-connect:/var/run/docker.sock
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - jenkins
+    restart: always
+    ports:
+      - "2375:2376"
+    
+networks:
+  jenkins:
+    driver: bridge

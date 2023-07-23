@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: Pipeline implementation for Blue Ocean
+Specification-Version: 1.27
+Implementation-Title: Pipeline implementation for Blue Ocean
+Implementation-Version: 1.27.4
+Group-Id: io.jenkins.blueocean
+Short-Name: blueocean-pipeline-api-impl
+Long-Name: Pipeline implementation for Blue Ocean
+Url: https://github.com/jenkinsci/blueocean-plugin/blob/master/blueocean
+ /doc/BlueOcean.adoc
+Plugin-Version: 1.27.4
+Hudson-Version: 2.361.4
+Jenkins-Version: 2.361.4
+Plugin-Dependencies: blueocean-commons:1.27.4,blueocean-pipeline-scm-api
+ :1.27.4,blueocean-rest-impl:1.27.4,caffeine-api:3.1.6-115.vb_8b_b_328e5
+ 9d8,workflow-api:1208.v0cc7c6e0da_9e,workflow-cps:3659.v582dc37621d8,wo
+ rkflow-durable-task-step:1246.v5524618ea_097,workflow-job:1292.v27d8cc3
+ e2602,workflow-multibranch:746.v05814d19c001,workflow-step-api:639.v6ec
+ a_cd8c04a_a_,workflow-support:839.v35e2736cfd5c,branch-api:2.1071.v1a_1
+ 88a_562481,credentials:1189.vf61b_a_5e2f62e,git:5.0.1,github-branch-sou
+ rce:2.6.0,htmlpublisher:1.31,pipeline-build-step:491.v1fec530da_858,pip
+ eline-graph-analysis:202.va_d268e64deb_3,pipeline-input-step:468.va_5db
+ _051498a_4,pipeline-stage-step:305.ve96d0205c1c6,plain-credentials:143.
+ v1b_df8b_d3b_e48,scm-api:667.v8b_6e07cdc7f2,pipeline-model-definition:2
+ .2125.vddb_a_44a_d605e,pipeline-stage-tags-metadata:2.2131.vb_9788088fd
+ b_5
+Plugin-Developers: Thorsten Iberian Sumurai:scherler:,Cliff Meyers:cliff
+ meyers:,Tom Fennelly:tfennelly:,Vivek Pandey:vivek:,Kohsuke:kohsuke:,Jo
+ sh McDonald:sophistifunk:,Ivan Meredith:imeredith:,Michael Neale:michae
+ lneale:,Keith Zantow:kzantow:,James Dumay:i386:,Marc:marcesher:,Paul Dr
+ agoonis:dragoonis:,Ivan Santos:pragmaticivan:,Peter Dave Hello:PeterDav
+ eHello:,Alexandru Somai:alexsomai:
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmUrl: https://github.com/jenkinsci/blueocean-plugin
+
