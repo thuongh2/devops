@@ -33,8 +33,7 @@ pipeline {
             steps {
                 echo 'Deliver....'
                 sh '''
-                docker build --pull --rm -f "LearnJenKins\\myapp\\Dockerfile" -t flash-docker "LearnJenKins\\myapp" 
-                docker run -d -p 5000:5000 --network learnjenkins_jenkins flash-docker
+                py3 -m flask run
                 '''
             }
         }
