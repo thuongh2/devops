@@ -7,6 +7,9 @@ pipeline {
     triggers {
         pollSCM '* * * * *'
     }
+    environment {
+        DOCKERHUB_CREDENTIALS = credentials('thuong-docker')
+    }
     stages {
         stage('Build') {
             steps {
@@ -29,11 +32,22 @@ pipeline {
                 '''
             }
         }
+        stage('Login') {
+            steps {
+                sh 'echo $DOCKERHUB_CREDENTIALS_PSW | docker login -u $DOCKERHUB_CREDENTIALS_USR --password-stdin'
+                sh '''
+                 cd LearnJenKins
+                 cd myapp
+                 docker build -t hoaithuongdata/myapp .
+                '''
+            }
+        }
         stage('Deliver') {
             steps {
                 echo 'Deliver....'
                 sh '''
-                python3 -m flask run
+                docker tag hoaithuongdata/myapp hoaithuongdata/myapp:v1
+                docker push hoaithuongdata/myapp
                 '''
             }
         }
